@@ -19,4 +19,4 @@ Amount of principle components is represented as a fraction, for example 50% or 
 
 Example for a grayscale file named "lena.png" to be compressed using KLT with 2x2 imageblocks and 3/4 of principle components kept:
 
-`$: python KLTCompressionOfGrayscaleImages.py -i lena.png -b 2 -n 3 -d 4`
+`$: python KLTbasedImageCompression.py -i lena.png -b 2 -n 3 -d 4`
